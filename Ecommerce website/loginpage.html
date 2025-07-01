@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website login</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="header">
+    
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+</div>
+    
+
+<div class="mid">
+             <p><a href="contact.html">اتصل بنا</a></p>
+              <p><a href="offers.html"> العروض<i class="fas fa-chevron-down"></i></a></p>
+               <a href="index.html#products"> المنتجات<i class="fas fa-chevron-down"></i></a>
+               <p><a href="index.html"> الصفحة الرئيسية</a></p>
+</div>
+     <div class="icons">
+             <ul>
+ <li class="dropacc">
+  <a href="#" id="accountDropdownBtn">حسابي <i class="arrow fas fa-chevron-down"></i></a>
+  <ul class="dropdown-menu" id="accountDropdownMenu">
+    <li><a href="loginpage.html">تسجيل الدخول</a></li>
+    <li><a href="newacc.html">إنشاء حساب</a></li>
+  </ul>
+</li>
+            <li><a href="loginpage.html"><i class="fas fa-user"></i></a></li>
+      <li><a href="#"><i class="fas fa-search"></i></a></li>
+      <li><a href="shopping.html"><i class="fas fa-shopping-cart"></i></a></li>
+      <li><a href="fav.html"><i class="fas fa-heart"></i></a></li>
+    </ul>
+
+</div>
+
+    </div>
+
+  <div class="title">
+    <h1>تسجيل الدخول</h1>
+    <h4>تسجيل الدخول  >
+<a href="index.html">الصفحة الرئيسية</a> </h4>
+  </div>
+
+  <div class="login-box">
+   
+      <div class="email">
+        <h4>البريد الإلكتروني :</h4>
+        <input type="text" placeholder="example@gmail.com" name="email" required>
+      </div>
+      <div class="pass">
+    <h4>كلمة المرور : </h4>
+        <input type="password" placeholder="*******" name="password" required>
+       
+        </div>
+        <div class="checkbox">
+             <p><a href="#">نسيت كلمة المرور؟</a></p>
+             <div class="box-check">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          <label for="remember-me">تذكرني؟</label>
+          </div>
+      </div>
+      <button type="submit" class="btn">تسجيل الدخول</button>
+      <p class="register">ليس لديك حساب؟ <a href="newacc.html">إنشاء حساب</a></p>
+  
+  </div>
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var btn = document.getElementById('accountDropdownBtn');
+    var menu = document.getElementById('accountDropdownMenu');
+    btn.onclick = function(e) {
+        e.preventDefault();
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    };
+    document.addEventListener('click', function(e) {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+            menu.style.display = 'none';
+        }
+    });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var menu = document.getElementById('accountDropdownMenu');
+    if(menu) menu.style.display = 'none';
+});
+</script>
+
+
+
+</body>
+</html>

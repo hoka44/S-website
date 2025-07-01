@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Almarai, sans-serif;
+    background-color: #ffffff;
+   direction: rtl;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+   
+}
+.header em{
+  color: #795548;
+  margin-left: 60px;
+
+    
+}
+.header p {
+    font-weight: bold;
+     text-align: center;
+    display: flex;
+    margin-left: 14px;
+    justify-content: center;
+
+}
+
+.header p a{
+   color: black;
+    text-decoration: none;
+}
+.header .logo img{
+    width: 80px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 5px;
+ 
+}
+.header .mid{
+    display: flex;
+     flex-direction: row-reverse;
+    gap: 30px;
+    margin-left: 20px;
+}
+.header .mid i{
+    color: #999999;
+    font-size: 14px;
+   padding: 3px;
+ 
+  
+    
+}
+.header .icons{
+    display: flex;
+     justify-content: flex-end;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin-right: 60px;
+   
+   
+   
+}
+.header .icons ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header .icons i,
+.header .icons a {
+    color: #000000;
+ text-decoration: none;
+   
+ 
+}
+.header .icons .arrow{
+
+        color: #999999;
+        padding: 3px;
+         font-size: 14px;
+}
+
+
+
+.header .icons i:hover {
+    color: #795548;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.title{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 450px;
+    margin: 0px;
+    background-color: rgba(246, 241, 239, 1);
+}
+.title h1{
+
+font-family: Almarai, sans-serif;
+
+}
+.title h4{
+padding: 5px;
+    margin-right: 92px;
+
+}
+
+
+.mid a{
+    color: #000000;
+    text-decoration: none;
+    font-family: Almarai, sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.dropacc {
+    position: relative;
+     opacity: .9;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(93, 84, 84, 0.292);
+    min-width: 170px;
+    z-index: 100;
+    padding: 10px 0;
+    list-style: none;
+    flex-direction: column;
+    gap: 0;
+}
+
+.dropdown-menu li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 22px;
+    
+    text-decoration: none;
+    font-family: Almarai, sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-menu li:last-child a {
+    border-bottom: none;
+}
+
+.dropdown-menu li a:hover {
+    background: #f6f1ef;
+    color: #000;
+}
+
+
+
+
+.login-box{
+background-color: rgba(242, 242, 242, 1);
+    display: flex
+;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 70px;
+    padding: 45px;
+    width: 500px;
+    margin-right: 500px;
+}
+
+
+
+
+
+.login-box .email input{
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    border: white;
+    outline: none
+  
+}
+.login-box .pass input{
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    border: white;
+    outline: none
+}
+.box-check{
+   display: flex
+;
+       flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.login-box .checkbox{
+        display: flex;
+            flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.checkbox p a {
+ 
+    color: #000000;
+}
+.btn {
+    background-color: rgba(166, 120, 101, 1);
+    border: 1px solid wheat;
+    border-radius: 10px;
+    font-family: Inter;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(129, 77, 57);
+    transition: 1s;
+}
+.register,
+.a{
+    text-align: center;
+}
+.register{
+    color: rgba(102, 102, 102, 1);
+}
+a{color: rgba(129, 90, 75, 1);
+text-decoration: none;
+}
+a:hover{
+    color: #7a2d11;
+    
+}

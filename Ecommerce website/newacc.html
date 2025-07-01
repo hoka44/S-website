@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="newaccstyle.css">
+</head>
+<body>
+    <div class="header">
+    
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+</div>
+    
+
+<div class="mid">
+             <p><a href="contact.html">اتصل بنا</a></p>
+              <p><a href="offers.html"> العروض<i class="fas fa-chevron-down"></i></a></p>
+              <a href="index.html#products"> المنتجات<i class="fas fa-chevron-down"></i></a>
+               <p><a href="index.html"> الصفحة الرئيسية</a></p>
+</div>
+      
+       <div class="icons">
+             <ul>
+ <li class="dropacc">
+  <a href="#" id="accountDropdownBtn">حسابي <i class="arrow fas fa-chevron-down"></i></a>
+  <ul class="dropdown-menu" id="accountDropdownMenu">
+    <li><a href="loginpage.html">تسجيل الدخول</a></li>
+    <li><a href="newacc.html">إنشاء حساب</a></li>
+  </ul>
+</li>
+            <li><a href="loginpage.html"><i class="fas fa-user"></i></a></li>
+      <li><a href="#"><i class="fas fa-search"></i></a></li>
+      <li><a href="shopping.html"><i class="fas fa-shopping-cart"></i></a></li>
+      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+    </ul>
+
+</div>
+
+    </div>
+
+
+    
+  <div class="tit-acc">
+    <h1>انشاء حساب  </h1>
+  
+    <h4>
+  <a href="index.html">الصفحة الرئيسية</a>  >
+ <a href="loginpage.html"> تسجيل الدخول  ></a>
+<a href="newacc.html">انشاء حساب </a></h4>
+  </div>
+
+
+  
+  <div class="container">
+
+    <p class="one">النوع:</p>
+    <div class="rad">
+    <input type="radio" name="female"><p class="g">انثي</p>
+
+    <input type="radio" name="male"><p class="b">ذكر</p>
+    </div>
+
+    <p class="name">الإسم الأول</p>
+    <input type="text" class="user" placeholder="F-name" >
+    
+    <p class="name"> اسم العائلة</p>
+    <input type="text" class="user" placeholder="L-name" >
+
+
+        <p class="name"> الموضوع </p>
+
+        <div class="date-select">
+    <select name="day">
+        <option value="">اليوم</option>
+    
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+         <option value="5">5</option>
+          <option value="6">6</option>
+           <option value="7">7</option>
+            <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+    <select name="month">
+      <option value="">الشهر</option>
+        <option value="1">يناير</option>
+        <option value="2">فبراير</option>
+        <option value="3">مارس</option>
+        <option value="4">ابريل</option>
+        <option value="5">مايو</option>
+        <option value="6">يونيو</option>
+        <option value="7">يوليو</option>
+        <option value="8">اغسطس</option>
+        <option value="9">سبتمبر</option>
+        <option value="10">اكتوبر</option>
+        <option value="11">نوفمبر</option>
+        <option value="12">ديسمبر</option>
+    </select>
+    <select name="year">
+        <option value="">السنة</option>
+        <option value="2026">2026</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2000">2000</option>
+    </select>
+</div>
+
+
+<p>البريد الإلكتروني</p>
+<input type="email" class="e-mail" placeholder="example.@mail.com">
+<p>رقم الهاتف</p>
+<input type="tel" class="num" placeholder="2012345678910+">
+<p>الإختيارات</p>
+<div class="check-box">
+<input type="checkbox" ><p >النشرة البريدية</p>
+    </div>
+    <p>كلمة المرور</p>
+    <input type="password" class="pass" placeholder="**********">
+    <p>تأكيد كلمة المرور</p>
+      <input type="password" class="pass" placeholder="**********">
+        <button type="submit" class="btn">انشاء حساب </button>
+    </div> 
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var btn = document.getElementById('accountDropdownBtn');
+    var menu = document.getElementById('accountDropdownMenu');
+    btn.onclick = function(e) {
+        e.preventDefault();
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    };
+    document.addEventListener('click', function(e) {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+            menu.style.display = 'none';
+        }
+    });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var menu = document.getElementById('accountDropdownMenu');
+    if(menu) menu.style.display = 'none';
+});
+</script>
+
+
+</body>
+</html>
